@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Library Cafe</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="records">Records</string>
+    <string name="profile">Profile</string>
+    <string-array name="profilelistarray">
+        <item>Books Read</item>
+        <item>Add Customer</item>
+        <item>Add Books to Inventory</item>
+        <item>Remove Books from Inventory</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

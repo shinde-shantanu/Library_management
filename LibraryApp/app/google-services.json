@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "917739371372",
+    "firebase_url": "https://libraryapp-dad28.firebaseio.com",
+    "project_id": "libraryapp-dad28",
+    "storage_bucket": "libraryapp-dad28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917739371372:android:ab2bec587d3b97b6",
+        "android_client_info": {
+          "package_name": "com.hfad.libraryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917739371372-4frih4luiqiehn4ue1ml1aajn3u7514i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

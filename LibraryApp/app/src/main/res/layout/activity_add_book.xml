@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hfad.libraryapp.AddBookActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/bookid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter id" />
+
+            <EditText
+                android:id="@+id/bookname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Book Name" />
+
+            <EditText
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Author" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description" />
+
+            <EditText
+                android:id="@+id/pages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No. of pages" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Genre"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_horror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horror"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_fantasy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fantasy"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/young_adults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Young Adults"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_childrens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Childrens"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_classic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classics"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_crime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crime"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_fiction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fiction"
+                android:layout_marginTop="4dp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_mystery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mystery"
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="saveBook"
+                android:background="@drawable/button_shape"
+                android:text="Save Book" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
